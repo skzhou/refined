@@ -4,7 +4,8 @@ import {
   Text,
   StyleSheet,
   Image,
-  ScrollView
+  ScrollView,
+  Linking,
 } from 'react-native';
 
 import { Button } from 'react-native-elements'
@@ -15,7 +16,6 @@ import {
   CardImage,
   CardContent,
   CardAction,
-  Linking,
 } from 'react-native-card-view';
 
 export default class CardScreen extends Component {
@@ -44,7 +44,6 @@ export default class CardScreen extends Component {
               title="from $3,200,000.00"
               rounded="true"
               backgroundColor="#4caf50"
-              onPress= {()=>{Linking.openURL(`https://www.bankofamerica.com/mortgage/home-mortgage/`);}}
             />
             </CardContent>
           </Card>
@@ -114,6 +113,8 @@ export default class CardScreen extends Component {
               title="from $2,200,000.00"
               rounded="true"
               backgroundColor="#4caf50"
+              onPress = {()=>{Linking.openURL(`https://www.zillow.com/homes/for_sale/Austin-TX/pmf,pf_pt/64686539_zpid/10221_rid/River-Place_att/globalrelevanceex_sort/30.623731,-97.346421,29.960883,-98.225327_rect/9_zm/`)}}
+
             />
             </CardContent>
           </Card>

@@ -1,5 +1,27 @@
 
 var sectionListData0 = [
+
+  {
+    data: [
+      {
+        name: 'Mortgage Information:',
+        description: 'Authorized',
+      },
+      {
+        name: 'Credit history:',
+        description: 'Authorized',
+      },
+      {
+        name: 'Account Balance:',
+        description: 'Authorized',
+      },
+      {
+        name: 'Transaction Report:',
+        description: 'Authorized',
+      },
+    ],
+    title: "Terms & Conditions",
+  },
   {
     data: [
       {
@@ -7,58 +29,28 @@ var sectionListData0 = [
         description: 'Shengke Zhou',
       },
       {
-        name: 'Age:',
-        description: '25',
+        name: 'Accounts details:',
+        description: 'Checking, Saving, Credit',
       },
     ],
-    title: "Security",
+    title: "Security & Privacy",
   },
   {
     data: [
       {
-        name: 'Chase:',
-        description: 'Checking, Saving',
+        name: 'Sync refinancing updates:',
+        description: 'Accepted',
       },
       {
-        name: 'American Express:',
-        description: 'Credit',
+        name: 'Receive push notifications:',
+        description: 'Accepted',
       },
       {
-        name: 'Bank of America:',
-        description: 'Credit',
+        name: 'Frequency of refinancing: ',
+        description: 'As frequent as possible',
       },
     ],
-    title: "Privacy",
-  },
-  {
-    data: [
-      {
-        name: 'Total Saving:',
-        description: '$ 200,000.00',
-      },
-      {
-        name: 'Total Credit:',
-        description: '$ 100,000.00',
-      },
-    ],
-    title: "Account Summary",
-  },
-  {
-    data: [
-      {
-        name: 'Home Property:',
-        description: '$ 1,000,000.00',
-      },
-      {
-        name: 'Vacation Property:',
-        description: '$ 1,000,000.00',
-      },
-      {
-        name: 'Vehicle: ',
-        description: '$ 50,000.00',
-      },
-    ],
-    title: "Active Loans",
+    title: "Settings",
   },
 ];
 
