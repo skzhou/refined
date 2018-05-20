@@ -14,9 +14,6 @@ import {
 import { Button } from 'react-native-elements';
 import {loanListData} from './loanListData';
 import Swipeout from 'react-native-swipeout'
-import LottieView from 'lottie-react-native';
-
-
 
 export default class LoanScreen extends React.Component {
   constructor(props) {
